@@ -13,25 +13,25 @@ cask "oneuptime-infrastructure-agent" do
     end
   end
 
-  version "14.3.0"
+  version "15.0.0"
 
   on_macos do
     on_arm do
-      sha256 "6c52511beec4f07e0d1e37d3021a583e00392b11069673bde5550cdba37db2b6"
+      sha256 "26979b8d68632ae860f2f66794dffa2bba18dec0bf8a69fe2a4b3dbf277bbc13"
       url "https://github.com/OneUptime/oneuptime/releases/download/#{version}/oneuptime-infrastructure-agent_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "43693c79ee83bbd9c4e9257024e59508e3277105f772b9519354f7ea9fc3e4bb"
+      sha256 "82f9df002fe9dcef78f69735d2cd86877433aaa32b30c192eb9b1746ff88674c"
       url "https://github.com/OneUptime/oneuptime/releases/download/#{version}/oneuptime-infrastructure-agent_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "12a085350b8333b334955c297cbf2b1b2c9cd11c28be207a0c56a75f612b8343"
+      sha256 "22f85ce212d1a58b3418a2beecc27a5a01567ac99e77e7a5c7c263b5782ec888"
       url "https://github.com/OneUptime/oneuptime/releases/download/#{version}/oneuptime-infrastructure-agent_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "550d057f6d62a2915e55696fd6411bc5f87a43b19ed01466a53e80c0f8295d5a"
+      sha256 "e0c442c5abe8ea493a8a0970209dfe9f311aa1479263886e6ddb77b99ded0144"
       url "https://github.com/OneUptime/oneuptime/releases/download/#{version}/oneuptime-infrastructure-agent_linux_amd64.tar.gz"
     end
   end
